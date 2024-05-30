@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discord Bot Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Discord Bot Dashboard</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Moderation Logs</a></li>
+      <li><a href="#">Ticketing System</a></li>
+    </ul>
+  </nav>
+  <section id="home">
+    <h2>Dashboard Home</h2>
+    <p>Welcome to the Discord Bot Dashboard. This dashboard allows you to configure settings, view moderation logs, and manage the ticketing system.</p>
+  </section>
+  <section id="settings">
+    <h2>Settings</h2>
+    <p>Configure the bot settings here.</p>
+    <form>
+      <label for="prefix">Bot Command Prefix:</label>
+      <input type="text" id="prefix" name="prefix" placeholder="Enter bot command prefix">
+      <button type="submit">Save</button>
+    </form>
+  </section>
+  <section id="moderation-logs">
+    <h2>Moderation Logs</h2>
+    <table>
+      <tr>
+        <th>User</th>
+        <th>Action</th>
+        <th>Reason</th>
+        <th>Timestamp</th>
+      </tr>
+      <tr>
+        <td>User1</td>
+        <td>Kick</td>
+        <td>Spamming</td>
+        <td>2022-01-01 12:00:00</td>
+      </tr>
+      <tr>
+        <td>User2</td>
+        <td>Ban</td>
+        <td>Inappropriate behavior</td>
+        <td>2022-01-02 13:00:00</td>
+      </tr>
+    </table>
+  </section>
+  <section id="ticketing-system">
+    <h2>Ticketing System</h2>
+    <p>Create and manage support tickets here.</p>
+    <form>
+      <label for="ticket-title">Ticket Title:</label>
+      <input type="text" id="ticket-title" name="ticket-title" placeholder="Enter ticket title">
+      <label for="ticket-description">Ticket Description:</label>
+      <textarea id="ticket-description" name="ticket-description" placeholder="Enter ticket description"></textarea>
+      <button type="submit">Submit Ticket</button>
+    </form>
+  </section>
+</body>
+</html>
